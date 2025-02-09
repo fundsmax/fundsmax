@@ -1,0 +1,170 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-light: #ffffff;
+  --foreground-light: #171717;
+  --background-dark: #0a0a0a;
+  --foreground-dark: #ededed;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: var(--background-dark);
+    --foreground: var(--foreground-dark);
+  }
+}
+
+body {
+  color: var(--foreground-light);
+  background: var(--background-light);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  @apply flex items-center justify-center min-h-screen bg-gradient-to-r from-purple-500 via-pink-500 to-red-500;
+}
+
+/* Form container styles */
+.form-container {
+  @apply bg-gradient-to-r from-blue-500 to-teal-500 p-8 rounded-lg shadow-lg w-full max-w-md text-center text-white;
+}
+
+/* Input and button styles */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+button {
+  @apply w-full p-3 my-2 border border-gray-300 dark:border-gray-700 rounded-full text-lg text-black;
+}
+
+button {
+  @apply bg-green-500 text-white cursor-pointer border-none transition-colors;
+}
+
+button:hover {
+  @apply bg-green-600;
+}
+
+a {
+  @apply text-white font-bold no-underline transition-colors;
+}
+
+a:hover {
+  @apply text-gray-300;
+}
+
+.error-message {
+  @apply text-red-500 my-2;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Dashboard specific styles */
+.dashboard-container {
+  @apply p-4 md:p-6 bg-gradient-to-r from-purple-500 to-yellow-500 text-white;
+}
+
+.dashboard-title {
+  @apply text-2xl font-bold mb-6 text-center md:text-left;
+}
+
+.dashboard-grid {
+  @apply grid grid-cols-1 gap-4 md:grid-cols-3;
+}
+
+.dashboard-box {
+  @apply bg-white bg-opacity-75 p-4 rounded shadow text-center;
+}
+
+.dashboard-box h2 {
+  @apply text-lg font-bold text-black;
+}
+
+.dashboard-box p {
+  @apply text-2xl text-black;
+}
+
+.dashboard-buttons {
+  @apply mt-4 flex flex-col md:flex-row justify-center;
+}
+
+.dashboard-button {
+  @apply bg-blue-500 text-white px-4 py-2 rounded mb-4 md:mb-0 md:mr-4 w-full md:w-auto;
+}
+
+.dashboard-button:hover {
+  @apply bg-blue-600;
+}
+
+.withdraw-button {
+  @apply bg-green-500 text-white px-4 py-2 rounded w-full md:w-auto;
+}
+
+.withdraw-button:hover {
+  @apply bg-green-600;
+}
+
+/* Modal styles */
+.modal-overlay {
+  @apply fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-75;
+}
+
+.modal-content {
+  @apply bg-white dark:bg-gray-800 p-6 rounded w-full max-w-md mx-4 overflow-y-auto max-h-screen;
+}
+
+.modal-title {
+  @apply text-xl font-bold mb-4;
+}
+
+.modal-form {
+  @apply mb-4;
+}
+
+.modal-form label {
+  @apply block mb-2;
+}
+
+.modal-form input,
+.modal-form select {
+  @apply w-full p-2 border rounded text-black;
+}
+
+.modal-close-button {
+  @apply mt-4 bg-blue-500 text-white px-4 py-2 rounded;
+}
+
+.modal-close-button:hover {
+  @apply bg-blue-600;
+}
+
+.modal-withdraw-button {
+  @apply bg-green-500 text-white px-4 py-2 rounded mr-4;
+}
+
+.modal-withdraw-button:hover {
+  @apply bg-green-600;
+}
+
+/* Payment options styles */
+.payment-options {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4;
+}
+
+.payment-option {
+  @apply bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 p-4 rounded-lg shadow-lg text-center text-white cursor-pointer transform transition-transform;
+}
+
+.payment-option:hover {
+  @apply scale-105;
+}
