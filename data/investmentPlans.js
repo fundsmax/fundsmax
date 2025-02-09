@@ -4,9 +4,9 @@ const investmentPlans = [
       name: 'Invest in Sports & Fitness',
       investment: 2500,
       returnTime: 24, // in hours
-      returnAmount: 2540,
+      returnAmount: 2541.25,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -16,7 +16,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 5082.5,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -26,7 +26,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 10170,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -36,7 +36,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 15262.5,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -46,7 +46,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 20360,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -56,7 +56,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 25462.5,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -66,7 +66,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 30570,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -76,7 +76,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 35682.5,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -86,7 +86,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 40800,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -96,7 +96,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 51025,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -106,7 +106,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 61260,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -116,7 +116,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 71505,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -126,7 +126,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 81760,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -136,7 +136,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 92025,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -146,7 +146,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 102300,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -156,7 +156,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 112585,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -166,7 +166,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 122880,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -176,7 +176,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 133185,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -186,7 +186,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 143500,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -196,7 +196,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 153825,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -206,7 +206,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 164160,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -216,7 +216,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 174505,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -226,7 +226,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 184860,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -236,7 +236,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 195225,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -246,7 +246,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 205600,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -256,7 +256,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 215985,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -266,7 +266,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 226380,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -276,7 +276,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 236785,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -286,7 +286,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 247200,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -296,7 +296,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 257625,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -306,7 +306,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 268060,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -316,7 +316,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 278505,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -326,7 +326,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 288960,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -336,7 +336,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 299425,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -346,7 +346,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 309900,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -356,7 +356,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 320385,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -366,7 +366,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 330880,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -376,7 +376,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 341385,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -386,7 +386,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 351900,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     },
     {
@@ -396,7 +396,7 @@ const investmentPlans = [
       returnTime: 24,
       returnAmount: 362425,
       get profit() {
-        return `${((this.returnAmount - this.investment) / this.investment * 100).toFixed(2)}%`;
+        return (this.returnAmount - this.investment).toFixed(2);
       },
     }
   ];
