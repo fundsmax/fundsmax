@@ -5,7 +5,7 @@ const investmentPlans = [
       investment: 2500,
       profit: '1.60%', // 1.60%
       returnTime: 24, // in hours
-      returnAmount: 2500 + (2500 * 1.60 / 100) // 2540
+      returnAmount: parseFloat((2500 + (2500 * 1.60 / 100)).toFixed(2))
     },
     {
       id: 2,
@@ -13,7 +13,7 @@ const investmentPlans = [
       investment: 5000,
       profit: '1.65%', // 1.65%
       returnTime: 24,
-      returnAmount: 5000 + (5000 * 1.65 / 100) // 5082.5
+      returnAmount: parseFloat((5000 + (5000 * 1.65 / 100)).toFixed(2))
     },
     {
       id: 3,
@@ -21,7 +21,7 @@ const investmentPlans = [
       investment: 10000,
       profit: '1.70%', // 1.70%
       returnTime: 24,
-      returnAmount: 10000 + (10000 * 1.70 / 100) // 10170
+      returnAmount: parseFloat((10000 + (10000 * 1.70 / 100)).toFixed(2))
     },
     {
       id: 4,
@@ -29,7 +29,7 @@ const investmentPlans = [
       investment: 15000,
       profit: '1.75%', // 1.75%
       returnTime: 24,
-      returnAmount: 15000 + (15000 * 1.75 / 100) // 15262.5
+      returnAmount: parseFloat((15000 + (15000 * 1.75 / 100)).toFixed(2))
     },
     {
       id: 5,
@@ -37,7 +37,7 @@ const investmentPlans = [
       investment: 20000,
       profit: '1.80%', // 1.80%
       returnTime: 24,
-      returnAmount: 20000 + (20000 * 1.80 / 100) // 20360
+      returnAmount: parseFloat((20000 + (20000 * 1.80 / 100)).toFixed(2))
     },
     {
       id: 6,
@@ -45,7 +45,7 @@ const investmentPlans = [
       investment: 25000,
       profit: '1.85%', // 1.85%
       returnTime: 24,
-      returnAmount: 25000 + (25000 * 1.85 / 100) // 25462.5
+      returnAmount: parseFloat((25000 + (25000 * 1.85 / 100)).toFixed(2))
     },
     {
       id: 7,
@@ -53,7 +53,7 @@ const investmentPlans = [
       investment: 30000,
       profit: '1.90%', // 1.90%
       returnTime: 24,
-      returnAmount: 30000 + (30000 * 1.90 / 100) // 30570
+      returnAmount: parseFloat((30000 + (30000 * 1.90 / 100)).toFixed(2))
     },
     {
       id: 8,
@@ -61,15 +61,15 @@ const investmentPlans = [
       investment: 35000,
       profit: '1.95%', // 1.95%
       returnTime: 24,
-      returnAmount: 35000 + (35000 * 1.95 / 100) // 35682.5
+      returnAmount: parseFloat((35000 + (35000 * 1.95 / 100)).toFixed(2))
     },
     {
       id: 9,
       name: 'Invest in Electronics',
       investment: 40000,
-      profit: '2.00%', // 2%
+      profit: '2.00%', // 2.00%
       returnTime: 24,
-      returnAmount: 40000 + (40000 * 2.00 / 100) // 40800
+      returnAmount: parseFloat((40000 + (40000 * 2.00 / 100)).toFixed(2))
     },
     {
       id: 10,
@@ -77,7 +77,7 @@ const investmentPlans = [
       investment: 50000,
       profit: '2.05%', // 2.05%
       returnTime: 24,
-      returnAmount: 50000 + (50000 * 2.05 / 100) // 51025
+      returnAmount: parseFloat((50000 + (50000 * 2.05 / 100)).toFixed(2))
     },
     {
       id: 11,
@@ -85,7 +85,7 @@ const investmentPlans = [
       investment: 60000,
       profit: '2.10%', // 2.10%
       returnTime: 24,
-      returnAmount: 60000 + (60000 * 2.10 / 100) // 61260
+      returnAmount: parseFloat((60000 + (60000 * 2.10 / 100)).toFixed(2))
     },
     {
       id: 12,
@@ -93,7 +93,7 @@ const investmentPlans = [
       investment: 70000,
       profit: '2.15%', // 2.15%
       returnTime: 24,
-      returnAmount: 70000 + (70000 * 2.15 / 100) // 71505
+      returnAmount: parseFloat((70000 + (70000 * 2.15 / 100)).toFixed(2))
     },
     {
       id: 13,
@@ -101,7 +101,7 @@ const investmentPlans = [
       investment: 80000,
       profit: '2.20%', // 2.20%
       returnTime: 24,
-      returnAmount: 80000 + (80000 * 2.20 / 100) // 81760
+      returnAmount: parseFloat((80000 + (80000 * 2.20 / 100)).toFixed(2))
     },
     {
       id: 14,
@@ -109,7 +109,7 @@ const investmentPlans = [
       investment: 90000,
       profit: '2.25%', // 2.25%
       returnTime: 24,
-      returnAmount: 90000 + (90000 * 2.25 / 100) // 92025
+      returnAmount: parseFloat((90000 + (90000 * 2.25 / 100)).toFixed(2))
     },
     {
       id: 15,
@@ -117,7 +117,7 @@ const investmentPlans = [
       investment: 100000,
       profit: '2.30%', // 2.30%
       returnTime: 24,
-      returnAmount: 100000 + (100000 * 2.30 / 100) // 102300
+      returnAmount: parseFloat((100000 + (100000 * 2.30 / 100)).toFixed(2))
     },
     {
       id: 16,
@@ -125,7 +125,7 @@ const investmentPlans = [
       investment: 110000,
       profit: '2.35%', // 2.35%
       returnTime: 24,
-      returnAmount: 110000 + (110000 * 2.35 / 100) // 112585
+      returnAmount: parseFloat((110000 + (110000 * 2.35 / 100)).toFixed(2))
     },
     {
       id: 17,
@@ -133,7 +133,7 @@ const investmentPlans = [
       investment: 120000,
       profit: '2.40%', // 2.40%
       returnTime: 24,
-      returnAmount: 120000 + (120000 * 2.40 / 100) // 122880
+      returnAmount: parseFloat((120000 + (120000 * 2.40 / 100)).toFixed(2))
     },
     {
       id: 18,
@@ -141,7 +141,7 @@ const investmentPlans = [
       investment: 130000,
       profit: '2.45%', // 2.45%
       returnTime: 24,
-      returnAmount: 130000 + (130000 * 2.45 / 100) // 133185
+      returnAmount: parseFloat((130000 + (130000 * 2.45 / 100)).toFixed(2))
     },
     {
       id: 19,
@@ -149,7 +149,7 @@ const investmentPlans = [
       investment: 140000,
       profit: '2.50%', // 2.50%
       returnTime: 24,
-      returnAmount: 140000 + (140000 * 2.50 / 100) // 143500
+      returnAmount: parseFloat((140000 + (140000 * 2.50 / 100)).toFixed(2))
     },
     {
       id: 20,
@@ -157,7 +157,7 @@ const investmentPlans = [
       investment: 150000,
       profit: '2.55%', // 2.55%
       returnTime: 24,
-      returnAmount: 150000 + (150000 * 2.55 / 100) // 153825
+      returnAmount: parseFloat((150000 + (150000 * 2.55 / 100)).toFixed(2))
     },
     {
       id: 21,
@@ -165,7 +165,7 @@ const investmentPlans = [
       investment: 160000,
       profit: '2.60%', // 2.60%
       returnTime: 24,
-      returnAmount: 160000 + (160000 * 2.60 / 100) // 164160
+      returnAmount: parseFloat((160000 + (160000 * 2.60 / 100)).toFixed(2))
     },
     {
       id: 22,
@@ -173,7 +173,7 @@ const investmentPlans = [
       investment: 170000,
       profit: '2.65%', // 2.65%
       returnTime: 24,
-      returnAmount: 170000 + (170000 * 2.65 / 100) // 174505
+      returnAmount: parseFloat((170000 + (170000 * 2.65 / 100)).toFixed(2))
     },
     {
       id: 23,
@@ -181,7 +181,7 @@ const investmentPlans = [
       investment: 180000,
       profit: '2.70%', // 2.70%
       returnTime: 24,
-      returnAmount: 180000 + (180000 * 2.70 / 100) // 184860
+      returnAmount: parseFloat((180000 + (180000 * 2.70 / 100)).toFixed(2))
     },
     {
       id: 24,
@@ -189,7 +189,7 @@ const investmentPlans = [
       investment: 190000,
       profit: '2.75%', // 2.75%
       returnTime: 24,
-      returnAmount: 190000 + (190000 * 2.75 / 100) // 195225
+      returnAmount: parseFloat((190000 + (190000 * 2.75 / 100)).toFixed(2))
     },
     {
       id: 25,
@@ -197,7 +197,7 @@ const investmentPlans = [
       investment: 200000,
       profit: '2.80%', // 2.80%
       returnTime: 24,
-      returnAmount: 200000 + (200000 * 2.80 / 100) // 205600
+      returnAmount: parseFloat((200000 + (200000 * 2.80 / 100)).toFixed(2))
     },
     {
       id: 26,
@@ -205,7 +205,7 @@ const investmentPlans = [
       investment: 210000,
       profit: '2.85%', // 2.85%
       returnTime: 24,
-      returnAmount: 210000 + (210000 * 2.85 / 100) // 215985
+      returnAmount: parseFloat((210000 + (210000 * 2.85 / 100)).toFixed(2))
     },
     {
       id: 27,
@@ -213,7 +213,7 @@ const investmentPlans = [
       investment: 220000,
       profit: '2.90%', // 2.90%
       returnTime: 24,
-      returnAmount: 220000 + (220000 * 2.90 / 100) // 226380
+      returnAmount: parseFloat((220000 + (220000 * 2.90 / 100)).toFixed(2))
     },
     {
       id: 28,
@@ -221,7 +221,7 @@ const investmentPlans = [
       investment: 230000,
       profit: '2.95%', // 2.95%
       returnTime: 24,
-      returnAmount: 230000 + (230000 * 2.95 / 100) // 236785
+      returnAmount: parseFloat((230000 + (230000 * 2.95 / 100)).toFixed(2))
     },
     {
       id: 29,
@@ -229,7 +229,7 @@ const investmentPlans = [
       investment: 240000,
       profit: '3.00%', // 3.00%
       returnTime: 24,
-      returnAmount: 240000 + (240000 * 3.00 / 100) // 247200
+      returnAmount: parseFloat((240000 + (240000 * 3.00 / 100)).toFixed(2))
     },
     {
       id: 30,
@@ -237,7 +237,7 @@ const investmentPlans = [
       investment: 250000,
       profit: '3.05%', // 3.05%
       returnTime: 24,
-      returnAmount: 250000 + (250000 * 3.05 / 100) // 257625
+      returnAmount: parseFloat((250000 + (250000 * 3.05 / 100)).toFixed(2))
     },
     {
       id: 31,
@@ -245,7 +245,7 @@ const investmentPlans = [
       investment: 260000,
       profit: '3.10%', // 3.10%
       returnTime: 24,
-      returnAmount: 260000 + (260000 * 3.10 / 100) // 268060
+      returnAmount: parseFloat((260000 + (260000 * 3.10 / 100)).toFixed(2))
     },
     {
       id: 32,
@@ -253,7 +253,7 @@ const investmentPlans = [
       investment: 270000,
       profit: '3.15%', // 3.15%
       returnTime: 24,
-      returnAmount: 270000 + (270000 * 3.15 / 100) // 278505
+      returnAmount: parseFloat((270000 + (270000 * 3.15 / 100)).toFixed(2))
     },
     {
       id: 33,
@@ -261,7 +261,7 @@ const investmentPlans = [
       investment: 280000,
       profit: '3.20%', // 3.20%
       returnTime: 24,
-      returnAmount: 280000 + (280000 * 3.20 / 100) // 288960
+      returnAmount: parseFloat((280000 + (280000 * 3.20 / 100)).toFixed(2))
     },
     {
       id: 34,
@@ -269,7 +269,7 @@ const investmentPlans = [
       investment: 290000,
       profit: '3.25%', // 3.25%
       returnTime: 24,
-      returnAmount: 290000 + (290000 * 3.25 / 100) // 299425
+      returnAmount: parseFloat((290000 + (290000 * 3.25 / 100)).toFixed(2))
     },
     {
       id: 35,
@@ -277,7 +277,7 @@ const investmentPlans = [
       investment: 300000,
       profit: '3.30%', // 3.30%
       returnTime: 24,
-      returnAmount: 300000 + (300000 * 3.30 / 100) // 309900
+      returnAmount: parseFloat((300000 + (300000 * 3.30 / 100)).toFixed(2))
     },
     {
       id: 36,
@@ -285,7 +285,7 @@ const investmentPlans = [
       investment: 310000,
       profit: '3.35%', // 3.35%
       returnTime: 24,
-      returnAmount: 310000 + (310000 * 3.35 / 100) // 320385
+      returnAmount: parseFloat((310000 + (310000 * 3.35 / 100)).toFixed(2))
     },
     {
       id: 37,
@@ -293,7 +293,7 @@ const investmentPlans = [
       investment: 320000,
       profit: '3.40%', // 3.40%
       returnTime: 24,
-      returnAmount: 320000 + (320000 * 3.40 / 100) // 330880
+      returnAmount: parseFloat((320000 + (320000 * 3.40 / 100)).toFixed(2))
     },
     {
       id: 38,
@@ -301,7 +301,7 @@ const investmentPlans = [
       investment: 330000,
       profit: '3.45%', // 3.45%
       returnTime: 24,
-      returnAmount: 330000 + (330000 * 3.45 / 100) // 341385
+      returnAmount: parseFloat((330000 + (330000 * 3.45 / 100)).toFixed(2))
     },
     {
       id: 39,
@@ -309,7 +309,7 @@ const investmentPlans = [
       investment: 340000,
       profit: '3.50%', // 3.50%
       returnTime: 24,
-      returnAmount: 340000 + (340000 * 3.50 / 100) // 351900
+      returnAmount: parseFloat((340000 + (340000 * 3.50 / 100)).toFixed(2))
     },
     {
       id: 40,
@@ -317,7 +317,7 @@ const investmentPlans = [
       investment: 350000,
       profit: '3.55%', // 3.55%
       returnTime: 24,
-      returnAmount: 350000 + (350000 * 3.55 / 100) // 362425
+      returnAmount: parseFloat((350000 + (350000 * 3.55 / 100)).toFixed(2))
     }
   ];
   
