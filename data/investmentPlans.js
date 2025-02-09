@@ -121,8 +121,203 @@ const investmentPlans = [
     },
     {
       id: 16,
-      name: 'Collab With Us',
-      profitRange: '3-6%', // Profit range for collaboration
+      name: 'Invest in Healthcare',
+      investment: 110000,
+      profit: 2.35, // 2.35%
+      returnTime: 24,
+      returnAmount: 112585
+    },
+    {
+      id: 17,
+      name: 'Invest in Education',
+      investment: 120000,
+      profit: 2.40, // 2.40%
+      returnTime: 24,
+      returnAmount: 122880
+    },
+    {
+      id: 18,
+      name: 'Invest in Renewable Energy',
+      investment: 130000,
+      profit: 2.45, // 2.45%
+      returnTime: 24,
+      returnAmount: 133185
+    },
+    {
+      id: 19,
+      name: 'Invest in Real Estate',
+      investment: 140000,
+      profit: 2.50, // 2.50%
+      returnTime: 24,
+      returnAmount: 143500
+    },
+    {
+      id: 20,
+      name: 'Invest in Transportation',
+      investment: 150000,
+      profit: 2.55, // 2.55%
+      returnTime: 24,
+      returnAmount: 153825
+    },
+    {
+      id: 21,
+      name: 'Invest in Technology',
+      investment: 160000,
+      profit: 2.60, // 2.60%
+      returnTime: 24,
+      returnAmount: 164160
+    },
+    {
+      id: 22,
+      name: 'Invest in Pharmaceuticals',
+      investment: 170000,
+      profit: 2.65, // 2.65%
+      returnTime: 24,
+      returnAmount: 174505
+    },
+    {
+      id: 23,
+      name: 'Invest in Tourism',
+      investment: 180000,
+      profit: 2.70, // 2.70%
+      returnTime: 24,
+      returnAmount: 184860
+    },
+    {
+      id: 24,
+      name: 'Invest in Agriculture',
+      investment: 190000,
+      profit: 2.75, // 2.75%
+      returnTime: 24,
+      returnAmount: 195225
+    },
+    {
+      id: 25,
+      name: 'Invest in Food & Beverage',
+      investment: 200000,
+      profit: 2.80, // 2.80%
+      returnTime: 24,
+      returnAmount: 205600
+    },
+    {
+      id: 26,
+      name: 'Invest in Fashion',
+      investment: 210000,
+      profit: 2.85, // 2.85%
+      returnTime: 24,
+      returnAmount: 215985
+    },
+    {
+      id: 27,
+      name: 'Invest in Mining',
+      investment: 220000,
+      profit: 2.90, // 2.90%
+      returnTime: 24,
+      returnAmount: 226380
+    },
+    {
+      id: 28,
+      name: 'Invest in Telecommunications',
+      investment: 230000,
+      profit: 2.95, // 2.95%
+      returnTime: 24,
+      returnAmount: 236785
+    },
+    {
+      id: 29,
+      name: 'Invest in Manufacturing',
+      investment: 240000,
+      profit: 3.00, // 3.00%
+      returnTime: 24,
+      returnAmount: 247200
+    },
+    {
+      id: 30,
+      name: 'Invest in Entertainment',
+      investment: 250000,
+      profit: 3.05, // 3.05%
+      returnTime: 24,
+      returnAmount: 257625
+    },
+    {
+      id: 31,
+      name: 'Invest in Automotive',
+      investment: 260000,
+      profit: 3.10, // 3.10%
+      returnTime: 24,
+      returnAmount: 268060
+    },
+    {
+      id: 32,
+      name: 'Invest in Aerospace',
+      investment: 270000,
+      profit: 3.15, // 3.15%
+      returnTime: 24,
+      returnAmount: 278505
+    },
+    {
+      id: 33,
+      name: 'Invest in Defense',
+      investment: 280000,
+      profit: 3.20, // 3.20%
+      returnTime: 24,
+      returnAmount: 288960
+    },
+    {
+      id: 34,
+      name: 'Invest in Biotechnology',
+      investment: 290000,
+      profit: 3.25, // 3.25%
+      returnTime: 24,
+      returnAmount: 299425
+    },
+    {
+      id: 35,
+      name: 'Invest in Retail',
+      investment: 300000,
+      profit: 3.30, // 3.30%
+      returnTime: 24,
+      returnAmount: 309900
+    },
+    {
+      id: 36,
+      name: 'Invest in Logistics',
+      investment: 310000,
+      profit: 3.35, // 3.35%
+      returnTime: 24,
+      returnAmount: 320385
+    },
+    {
+      id: 37,
+      name: 'Invest in Utilities',
+      investment: 320000,
+      profit: 3.40, // 3.40%
+      returnTime: 24,
+      returnAmount: 330880
+    },
+    {
+      id: 38,
+      name: 'Invest in Chemicals',
+      investment: 330000,
+      profit: 3.45, // 3.45%
+      returnTime: 24,
+      returnAmount: 341385
+    },
+    {
+      id: 39,
+      name: 'Invest in Construction',
+      investment: 340000,
+      profit: 3.50, // 3.50%
+      returnTime: 24,
+      returnAmount: 351900
+    },
+    {
+      id: 40,
+      name: 'Invest in Financial Services',
+      investment: 350000,
+      profit: 3.55, // 3.55%
+      returnTime: 24,
+      returnAmount: 362425
     }
   ];
   
