@@ -5,9 +5,7 @@ const investmentPlans = [
       investment: 2500,
       returnTime: 24, // in hours
       returnAmount: 2541.25,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (2541.25 - 2500).toFixed(2),
     },
     {
       id: 2,
@@ -15,9 +13,7 @@ const investmentPlans = [
       investment: 5000,
       returnTime: 24,
       returnAmount: 5082.5,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (5082.5 - 5000).toFixed(2),
     },
     {
       id: 3,
@@ -25,9 +21,7 @@ const investmentPlans = [
       investment: 10000,
       returnTime: 24,
       returnAmount: 10170,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (10170 - 10000).toFixed(2),
     },
     {
       id: 4,
@@ -35,9 +29,7 @@ const investmentPlans = [
       investment: 15000,
       returnTime: 24,
       returnAmount: 15262.5,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (15262.5 - 15000).toFixed(2),
     },
     {
       id: 5,
@@ -45,9 +37,7 @@ const investmentPlans = [
       investment: 20000,
       returnTime: 24,
       returnAmount: 20360,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (20360 - 20000).toFixed(2),
     },
     {
       id: 6,
@@ -55,9 +45,7 @@ const investmentPlans = [
       investment: 25000,
       returnTime: 24,
       returnAmount: 25462.5,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (25462.5 - 25000).toFixed(2),
     },
     {
       id: 7,
@@ -65,9 +53,7 @@ const investmentPlans = [
       investment: 30000,
       returnTime: 24,
       returnAmount: 30570,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (30570 - 30000).toFixed(2),
     },
     {
       id: 8,
@@ -75,9 +61,7 @@ const investmentPlans = [
       investment: 35000,
       returnTime: 24,
       returnAmount: 35682.5,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (35682.5 - 35000).toFixed(2),
     },
     {
       id: 9,
@@ -85,9 +69,7 @@ const investmentPlans = [
       investment: 40000,
       returnTime: 24,
       returnAmount: 40800,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (40800 - 40000).toFixed(2),
     },
     {
       id: 10,
@@ -95,9 +77,7 @@ const investmentPlans = [
       investment: 50000,
       returnTime: 24,
       returnAmount: 51025,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (51025 - 50000).toFixed(2),
     },
     {
       id: 11,
@@ -105,9 +85,7 @@ const investmentPlans = [
       investment: 60000,
       returnTime: 24,
       returnAmount: 61260,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (61260 - 60000).toFixed(2),
     },
     {
       id: 12,
@@ -115,9 +93,7 @@ const investmentPlans = [
       investment: 70000,
       returnTime: 24,
       returnAmount: 71505,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (71505 - 70000).toFixed(2),
     },
     {
       id: 13,
@@ -125,9 +101,7 @@ const investmentPlans = [
       investment: 80000,
       returnTime: 24,
       returnAmount: 81760,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (81760 - 80000).toFixed(2),
     },
     {
       id: 14,
@@ -135,9 +109,7 @@ const investmentPlans = [
       investment: 90000,
       returnTime: 24,
       returnAmount: 92025,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (92025 - 90000).toFixed(2),
     },
     {
       id: 15,
@@ -145,9 +117,7 @@ const investmentPlans = [
       investment: 100000,
       returnTime: 24,
       returnAmount: 102300,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (102300 - 100000).toFixed(2),
     },
     {
       id: 16,
@@ -155,9 +125,7 @@ const investmentPlans = [
       investment: 110000,
       returnTime: 24,
       returnAmount: 112585,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (112585 - 110000).toFixed(2),
     },
     {
       id: 17,
@@ -165,9 +133,7 @@ const investmentPlans = [
       investment: 120000,
       returnTime: 24,
       returnAmount: 122880,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (122880 - 120000).toFixed(2),
     },
     {
       id: 18,
@@ -175,9 +141,7 @@ const investmentPlans = [
       investment: 130000,
       returnTime: 24,
       returnAmount: 133185,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (133185 - 130000).toFixed(2),
     },
     {
       id: 19,
@@ -185,9 +149,7 @@ const investmentPlans = [
       investment: 140000,
       returnTime: 24,
       returnAmount: 143500,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (143500 - 140000).toFixed(2),
     },
     {
       id: 20,
@@ -195,9 +157,7 @@ const investmentPlans = [
       investment: 150000,
       returnTime: 24,
       returnAmount: 153825,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (153825 - 150000).toFixed(2),
     },
     {
       id: 21,
@@ -205,9 +165,7 @@ const investmentPlans = [
       investment: 160000,
       returnTime: 24,
       returnAmount: 164160,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (164160 - 160000).toFixed(2),
     },
     {
       id: 22,
@@ -215,9 +173,7 @@ const investmentPlans = [
       investment: 170000,
       returnTime: 24,
       returnAmount: 174505,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (174505 - 170000).toFixed(2),
     },
     {
       id: 23,
@@ -225,9 +181,7 @@ const investmentPlans = [
       investment: 180000,
       returnTime: 24,
       returnAmount: 184860,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (184860 - 180000).toFixed(2),
     },
     {
       id: 24,
@@ -235,9 +189,7 @@ const investmentPlans = [
       investment: 190000,
       returnTime: 24,
       returnAmount: 195225,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (195225 - 190000).toFixed(2),
     },
     {
       id: 25,
@@ -245,9 +197,7 @@ const investmentPlans = [
       investment: 200000,
       returnTime: 24,
       returnAmount: 205600,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (205600 - 200000).toFixed(2),
     },
     {
       id: 26,
@@ -255,9 +205,7 @@ const investmentPlans = [
       investment: 210000,
       returnTime: 24,
       returnAmount: 215985,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (215985 - 210000).toFixed(2),
     },
     {
       id: 27,
@@ -265,9 +213,7 @@ const investmentPlans = [
       investment: 220000,
       returnTime: 24,
       returnAmount: 226380,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (226380 - 220000).toFixed(2),
     },
     {
       id: 28,
@@ -275,9 +221,7 @@ const investmentPlans = [
       investment: 230000,
       returnTime: 24,
       returnAmount: 236785,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (236785 - 230000).toFixed(2),
     },
     {
       id: 29,
@@ -285,9 +229,7 @@ const investmentPlans = [
       investment: 240000,
       returnTime: 24,
       returnAmount: 247200,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (247200 - 240000).toFixed(2),
     },
     {
       id: 30,
@@ -295,9 +237,7 @@ const investmentPlans = [
       investment: 250000,
       returnTime: 24,
       returnAmount: 257625,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (257625 - 250000).toFixed(2),
     },
     {
       id: 31,
@@ -305,9 +245,7 @@ const investmentPlans = [
       investment: 260000,
       returnTime: 24,
       returnAmount: 268060,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (268060 - 260000).toFixed(2),
     },
     {
       id: 32,
@@ -315,9 +253,7 @@ const investmentPlans = [
       investment: 270000,
       returnTime: 24,
       returnAmount: 278505,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (278505 - 270000).toFixed(2),
     },
     {
       id: 33,
@@ -325,9 +261,7 @@ const investmentPlans = [
       investment: 280000,
       returnTime: 24,
       returnAmount: 288960,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (288960 - 280000).toFixed(2),
     },
     {
       id: 34,
@@ -335,9 +269,7 @@ const investmentPlans = [
       investment: 290000,
       returnTime: 24,
       returnAmount: 299425,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (299425 - 290000).toFixed(2),
     },
     {
       id: 35,
@@ -345,9 +277,7 @@ const investmentPlans = [
       investment: 300000,
       returnTime: 24,
       returnAmount: 309900,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (309900 - 300000).toFixed(2),
     },
     {
       id: 36,
@@ -355,9 +285,7 @@ const investmentPlans = [
       investment: 310000,
       returnTime: 24,
       returnAmount: 320385,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (320385 - 310000).toFixed(2),
     },
     {
       id: 37,
@@ -365,9 +293,7 @@ const investmentPlans = [
       investment: 320000,
       returnTime: 24,
       returnAmount: 330880,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (330880 - 320000).toFixed(2),
     },
     {
       id: 38,
@@ -375,9 +301,7 @@ const investmentPlans = [
       investment: 330000,
       returnTime: 24,
       returnAmount: 341385,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (341385 - 330000).toFixed(2),
     },
     {
       id: 39,
@@ -385,9 +309,7 @@ const investmentPlans = [
       investment: 340000,
       returnTime: 24,
       returnAmount: 351900,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (351900 - 340000).toFixed(2),
     },
     {
       id: 40,
@@ -395,9 +317,7 @@ const investmentPlans = [
       investment: 350000,
       returnTime: 24,
       returnAmount: 362425,
-      get profit() {
-        return (this.returnAmount - this.investment).toFixed(2);
-      },
+      profit: (362425 - 350000).toFixed(2),
     }
   ];
   
